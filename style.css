@@ -1,0 +1,132 @@
+/* Basic Style Starting */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Montserrat', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+/* Basic Style Ends */
+
+/* Styling Header Starts */
+
+header {
+    background-image: url(https://base22.com/wp-content/uploads/2019/10/blogpost_digitalexp_2019-1024x683.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+}
+
+/* Styling Header Ends */
+
+/* Styling Features Section Starts */
+
+#features {
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+
+}
+
+/* Styling Features Section Ends */
+
+/* Styling About Me Starts */
+
+#about-me {
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: light;
+}
+
+#about-me a {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+.achieve-desc span {
+    font-weight: 700 !important;
+}
+
+/* Styling About Me Ends */
